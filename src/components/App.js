@@ -19,6 +19,10 @@ class App extends React.Component {
   }
 
   // TODO: componentDidMount()
+  componentDidMount() {
+    this.startInterval();
+  }
+    
   // TODO: componentWillUnmount()
 
   startInterval = () => {
