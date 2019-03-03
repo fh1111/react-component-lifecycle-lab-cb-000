@@ -22,7 +22,7 @@ class App extends React.Component {
   componentDidMount() {
     this.startInterval();
   }
-    
+
   // TODO: componentWillUnmount()
   componentWillUnmount() {
     this.cleanUpInterval();
